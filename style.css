@@ -1,0 +1,205 @@
+body{
+    background-image: url("image/coffee.jpg");
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 6px 6px rgba(6, 6, 6, 0.5);
+}
+h1{
+     color: #f5eeee;
+     margin-left: 10px;
+}
+.container{
+    display: flex;
+    height: 450px;
+    width: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(182, 138, 138, 0.5);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.5);
+    background-color:rgba(28, 26, 26, 0.5) ;
+    margin:  0 auto;
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    padding-bottom: 50px;
+
+
+}
+.container1{
+    display: flex;
+    height: 450px;
+    width: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(182, 138, 138, 0.5);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.5);
+    background-color:rgba(28, 26, 26, 0.5) ;
+    margin:  0 auto;
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    padding-right: 18px;
+    padding-bottom: 50px;
+}
+.container2{
+    max-height: max-content;
+    width: max-content;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(182, 138, 138, 0.5);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.5);
+    background-color:rgba(28, 26, 26, 0.5) ;
+    margin:  0 auto;
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    padding-right: 18px;
+    padding-bottom: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    transform: translateY(190%);
+}
+
+.name{
+    font-size: 30px;
+}
+.coffeetype{
+    font-size: 25px;
+}
+.coffelabel{
+    font-size: 30px;
+}
+.textarea{
+    width: 300px;
+}
+.btn{
+
+    font-size: 20px;
+    border-radius: 20px;
+}
+.backbtn{
+    width: 40px;
+    height: 40px;
+
+}
+.p2{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 140px;
+    text-shadow: 0 6px 6px rgba(8, 8, 8, 0.5);
+   
+}
+.coffeetitle{
+    font-size: 60px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid #fff;
+    padding-top: -200px;
+    border-radius: 40px;
+    margin-top: 10px;
+    text-shadow: 0 6px 6px rgba(6, 6, 6, 0.5);
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+a   {
+    text-decoration: none;
+    color: #deaa93;
+    font-weight: 500;
+    position: relative;
+    padding: 3px 0;
+    transition: color 0.3s ease;
+    font-size: 23px;
+    
+    
+    
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: white;
+    bottom: 0;
+    left: 50%;
+    transition: all 0.3s ease;
+}
+.btn:hover::after{
+    width: 100%;
+    left: 0;
+}
+.btn:hover{
+    background-color: rgba(138, 142, 182, 0.5);
+}
+a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: white;
+    bottom: 0;
+    left: 50%;
+    transition: all 0.3s ease;
+}
+a:hover::after{
+    width: 100%;
+    left: 0;
+}
+a:hover{
+    color: #fff;
+}
+.cntnt{
+    margin-bottom: 30px;
+}
+.orderdtls{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.orderdtls1{
+    font-size: 20px;
+    margin-left: 140px;
+}
+.deleteorder{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left; 
+}
+.coffeeshow{
+    width: fit-content;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin: 0 auto;
+    border-bottom: 5px solid #fff;
+    border-radius: 40px;
+    margin-top: 10px;
+    text-shadow: 0 6px 6px rgba(6, 6, 6, 0.5);
+}

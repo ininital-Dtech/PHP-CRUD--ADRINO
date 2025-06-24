@@ -1,0 +1,10 @@
+Order Summary
+-----------------
+Name: mikmik
+Coffee Type: espresso (₱250.00)
+Size: small (₱0.00)
+Extras: cream (₱10.50)
+Total Price: ₱260.50
+Special Instructions: 
+
+Thank you for your order!
